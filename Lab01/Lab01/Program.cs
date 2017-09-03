@@ -6,8 +6,8 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Data type : double");
-            Console.WriteLine("Size :" + sizeof(double));
+            Console.WriteLine("Data type : decimal");
+            Console.WriteLine("Size :" + sizeof(decimal));
             Console.WriteLine("Minimum Value :" + int.MinValue);
             Console.WriteLine("Maximum Value :" + int.MaxValue);  
         }
