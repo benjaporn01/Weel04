@@ -1,15 +1,14 @@
-﻿using System;
-
-namespace Lab01
+﻿
+using System;
+namespace RandomNumber
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Data type : ulong");
-            Console.WriteLine("Size :" + sizeof(ulong));
-            Console.WriteLine("Minimum Value :" + int.MinValue);
-            Console.WriteLine("Maximum Value :" + int.MaxValue);  
+            Random random = new Random();
+            int randomNumber = random.Next(0, 100);
+            Console.WriteLine(randomNumber);
         }
     }
 }
