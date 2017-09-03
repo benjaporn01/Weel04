@@ -6,18 +6,18 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Console.Write("Please enter value 1 :");
-                int val1 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Please enter value 2 :");
-                int val2 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Answer = " + (val1 + val2));
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error : " + e.ToString());
-            }
+            string name, lname, ID, GPA;
+            Console.Write("Enter name:");
+            name = Console.ReadLine();
+            Console.Write("Enter Lastname:");
+            lname = Console.ReadLine();
+            Console.Write("Enter ID:");
+            ID = Console.ReadLine();
+            Console.Write("Enter GPA.:");
+            GPA = Console.ReadLine();
+            Console.WriteLine("------------------");
+            Console.Write("Name: {0}\nLastname: {1}\nID: {2}\nGPA.:{3}\n",name,lname,ID,GPA);
+            Console.ReadKey();
         }
     }
 }
