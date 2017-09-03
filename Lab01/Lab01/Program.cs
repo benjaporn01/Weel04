@@ -6,8 +6,8 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Data type : ushort");
-            Console.WriteLine("Size :" + sizeof(ushort));
+            Console.WriteLine("Data type : uint");
+            Console.WriteLine("Size :" + sizeof(uint));
             Console.WriteLine("Minimum Value :" + int.MinValue);
             Console.WriteLine("Maximum Value :" + int.MaxValue);  
         }
