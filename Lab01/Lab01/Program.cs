@@ -15,7 +15,7 @@ namespace variableProperties
             Console.WriteLine("SunToEarthDistance = {0} km", SunToEarthDistance * mileTokm);
             double SunToEarthTimeOfLight = SunToEarthDistance / lightSpeed;  // miles
             Console.WriteLine("SunToEarthTimeOfLight = {0} seconds", SunToEarthTimeOfLight);
-            Console.WriteLine("SunToEarthTimeOfLight = {0} minutes", SunToEarthTimeOfLight / 60);
+            Console.WriteLine("SunToEarthTimeOfLight = {0} minutes", SunToEarthTimeOfLight / 60);     
         }
     }
 }
